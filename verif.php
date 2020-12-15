@@ -1,5 +1,5 @@
 <?php
-require 'Personne.php';
+require_once 'Personne.php';
 function verif(string $type, $chaine):string{
 	switch ($type) {
 		case 'email':
